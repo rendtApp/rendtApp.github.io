@@ -8,42 +8,85 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>rendt - Reports</title>
 </head>
 
-<body class="bgr">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 px-sm-5">
-        <a class="navbar-brand" href="index.html">rendt</a>
+<body class="bgr" style="background-color: rgb(0, 40, 60);">
+    <nav class="navbar navbar-expand-lg navbar-dark px-4 px-sm-5" style="width:100%; background: rgb(0, 30, 47);">
+        <a class="navbar-brand" href="index.html"><img src="assets/img/rendt_new_logo_square.png" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto ">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link disabled">Reports</a>
+                    <a class="nav-link disabled" href="#">Reports</a>
                 </li>
                 <li class="nav-item my-auto">
-                    <a href="https://github.com/rendtTeam/rendt"><img src="assets/img/github.png" class="img"></a>
+                    <a href="https://github.com/rendtTeam/rendt"><img src="assets/img/github.png" class="img"
+                            style="filter: invert(1)"></a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section class="container-fluid p-3 p-sm-5">
-        <div class="jumbotron jumbotron-fluid text-white p-5 jmb">
-            <h1 class="display-1 d-none d-sm-block">Reports</h1>
-            <h1 class="display-4 d-sm-none">Reports</h1>
-            <div class="pl-5">
-                <p class="lead"><a class="rep" href="reports/projSpecs.pdf">Project Specifications Report</a></p>
-                <p class="lead"><a class="rep" href="reports/Analysis.pdf">Analysis Report</a></p>
-                <p class="lead"><a class="rep" href="reports/projHighLevel.pdf">High-Level Design Report</a></p>
-                <p class="lead"><a class="rep" href="reports/projLowLevel.pdf">Low-Level Design Report</a></p>
-                <p class="lead"><a class="rep" href="reports/projFinal.pdf">Final Report</a></p>
+    <section class="container p-3 p-sm-5 text-center pt-0 mt-0" style="background-color: transparent; width: 100%;">
+        <div class="d-flex mt-0">
+            <div class="row text-white p-0 justify-elements-center" style="margin: -3rem auto 0 auto;">
+                <div class="col-7 mr-5">
+                    <h1 style="font-family: 'Century Gothic'; font-weight: bold; font-size: 15rem;">rendt</h1>
+                </div>
+                <div class="col-4 ml-3" align="left" style="padding-top: 3.5rem;">
+                    <h1 class="pl-3"
+                        style="margin: -0.3rem 0; font-family: 'Century Gothic'; font-weight: bold; font-size: 2.2125rem;">
+                        r<span style="color: rgb(0, 70, 96)">emote</span></h1>
+                    <h1 class="pl-2"
+                        style="margin: -0.3rem 0; font-family: 'Century Gothic'; font-weight: bold; font-size: 2.2125rem;">
+                        e<span style="color: rgb(0, 70, 96)">xecution</span></h1>
+                    <h1
+                        style="margin: -0.3rem 0; font-family: 'Century Gothic'; font-weight: bold; font-size: 2.2125rem;">
+                        <span style="color: rgb(0, 70, 96)">'</span>n</h1>
+                    <h1 class="pl-2"
+                        style="margin: -0.3rem 0; font-family: 'Century Gothic'; font-weight: bold; font-size: 2.2125rem;">
+                        d<span style="color: rgb(0, 70, 96)">istribution of</span></h1>
+                    <h1 class="pl-3"
+                        style="margin: -0.3rem 0; font-family: 'Century Gothic'; font-weight: bold; font-size: 2.2125rem;">
+                        t<span style="color: rgb(0, 70, 96)">asks</span></h1>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <section class="container-fluid p-5 p-sm-5 text-white text-center" style="background-color: rgb(0, 23, 37);">
+        <div class="container p-5">
+            <h1 class="display-1 d-none d-sm-block" style="font-family: 'Century Gothic'; font-weight: bold; font-size: 10rem;">Reports
+            </h1>
+            <h1 class="display-4 d-sm-none" style="font-family: 'Century Gothic'; font-weight: bold;">Reports</h1>
+            <div class="pl-0">
+                <p class="lead" style="font-family: 'Century Gothic';"><a class="rep"
+                        href="reports/projSpecs.pdf">Project
+                        Specifications Report</a></p>
+                <p class="lead" style="font-family: 'Century Gothic';"><a class="rep"
+                        href="reports/Analysis.pdf">Analysis
+                        Report</a></p>
+                <p class="lead" style="font-family: 'Century Gothic';"><a class="rep"
+                        href="reports/projHighLevel.pdf">High-Level Design Report</a></p>
+                <p class="lead" style="font-family: 'Century Gothic';"><a class="rep"
+                        href="reports/projLowLevel.pdf">Low-Level Design Report</a></p>
+                <p class="lead" style="font-family: 'Century Gothic';"><a class="rep" href="reports/projFinal.pdf">Final
+                        Report</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid p-5 text-center" style="background: transparent;">
+        <div class="d-flex">
+            <img src="assets/img/devTools.png" height="80px" style="margin: auto">
         </div>
     </section>
 
